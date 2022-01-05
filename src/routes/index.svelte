@@ -1,5 +1,6 @@
 <script>
     import QuickLinks from '../components/QuickLinks.svelte'
+    import Crypto from '../components/Crypto.svelte';
     const time = new Date();
 </script>
 
@@ -22,9 +23,7 @@
         <div class='h-12 border rounded-lg m-4'>
             <p class='text-center font-bold'>US Covid numbers</p>
         </div>
-        <div class='h-12 border rounded-lg m-4'>
-            <p class='text-center font-bold'>Crypto</p>
-        </div>
+        <Crypto />
         <div class='h-12 border rounded-lg m-4'>
             <p class='text-center font-bold'>Bloomberg Headlines</p>
         </div>
