@@ -29,7 +29,7 @@
 
 </script>
 
-<div class='border rounded-lg m-4'>
+<div class='border-4 rounded-lg m-4'>
     <p class='text-center font-bold underline py-4'>Crypto Prices</p>
     <p>Bitcoin: {btcPrice ? btcPrice : 'loading...'}</p>
     <p>Ethereum: {ethPrice ? ethPrice : 'loading...'}</p>

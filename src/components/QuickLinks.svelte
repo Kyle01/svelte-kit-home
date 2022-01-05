@@ -2,9 +2,9 @@
 	const elements = new Set();
 </script>
 
-<div class='border rounded-lg m-4'>
-    <p class='text-center font-bold underline py-4'>Quick links</p>
-    <ul class='m-4 pl-4 underline text-blue-600 hover:text-blue-800 list-disc'>
+<div class='border-4 rounded-lg m-4'>
+    <p class='text-center font-bold underline py-4'>Quick Links</p>
+    <ul class='mb-4 mx-4 pl-4 underline text-blue-600 hover:text-blue-800 list-disc'>
         <li class='py-2'>
             <a href='https://news.ycombinator.com/' target='_blank'>
                 Hacker News
