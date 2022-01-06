@@ -1,9 +1,12 @@
 <script>
+    import { MY_TEST_KEY } from '$lib/Env';
+    
     import QuickLinks from '../components/QuickLinks.svelte'
     import Crypto from '../components/Crypto.svelte';
     import WalletAuth from '../components/WalletAuth.svelte';
 
     const time = new Date();
+    console.log(MY_TEST_KEY)
 </script>
 
 <div class='w-screen h-screen bg-blue-200'>
