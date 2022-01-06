@@ -1,0 +1,1 @@
+export const MY_TEST_KEY = import.meta.env.VITE_TEST_KEY;
