@@ -1,6 +1,8 @@
 <script>
     import QuickLinks from '../components/QuickLinks.svelte'
     import Crypto from '../components/Crypto.svelte';
+    import WalletAuth from '../components/WalletAuth.svelte';
+
     const time = new Date();
 </script>
 
@@ -34,9 +36,7 @@
             <p class='text-center font-bold'>NYTimes Headlines</p>
         </div>
         <QuickLinks />
-        <div class='h-12 border-4 rounded-lg m-4'>
-            <p class='text-center font-bold'>Auth with Wallet</p>
-        </div>
+        <WalletAuth />
     </div>
     
 </div>
