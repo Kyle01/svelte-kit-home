@@ -2,7 +2,7 @@
 	const elements = new Set();
 </script>
 
-<script>
+<script lang='ts'>
     import { onMount } from 'svelte';
     let btcPrice;
     let ethPrice;
@@ -26,13 +26,12 @@
         const dogeCharacter = await dogeResponse.json();
         dogePrice = dogeCharacter.data.amount;
     })
-
 </script>
 
 <div class='border-4 rounded-lg m-4'>
     <p class='text-center font-bold underline py-4'>Crypto Prices</p>
-    <p>Bitcoin: {btcPrice ? btcPrice : 'loading...'}</p>
-    <p>Ethereum: {ethPrice ? ethPrice : 'loading...'}</p>
-    <p>Solana: {solPrice ? solPrice : 'loading...'}</p>
-    <p>Dogecoin: {dogePrice ? dogePrice : 'loading...'}</p>
+    <p>Bitcoin: {btcPrice ? btcPrice : 'loading…'}</p>
+    <p>Ethereum: {ethPrice ? ethPrice : 'loading…'}</p>
+    <p>Solana: {solPrice ? solPrice : 'loading…'}</p>
+    <p>Dogecoin: {dogePrice ? dogePrice : 'loading…'}</p>
 </div>

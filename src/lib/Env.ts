@@ -1,1 +1,1 @@
-export const MY_TEST_KEY = import.meta.env.VITE_TEST_KEY;
+export const VITE_OPEN_WEATHER_KEY = import.meta.env.VITE_OPEN_WEATHER_KEY;
