@@ -23,7 +23,7 @@
 
 
 <div class='border-4 rounded-lg m-4'>
-    <p class='text-center font-bold'>Weather</p>
+    <p class='text-center font-bold underline py-4' >Weather</p>
     <p>Forecast: {weather ? weather.forecast : 'loading…'}</p>
     <p>Temperature: {weather ? weather.temperature : 'sloading…'}</p>
     <p>Sunrise: {sunriseDisplay ? sunriseDisplay : 'loading…'}</p>
