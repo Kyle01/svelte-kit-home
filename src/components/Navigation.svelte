@@ -2,7 +2,6 @@
 	const elements = new Set();
 </script>
 
-
 <script lang="ts">
   import { page } from '$app/stores';
   import { onMount } from 'svelte';
