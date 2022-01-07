@@ -2,7 +2,7 @@
 	const elements = new Set();
 </script>
 
-<script>
+<script lang='ts'>
     import { onMount } from 'svelte';
     let btcPrice;
     let ethPrice;
