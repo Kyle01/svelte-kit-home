@@ -2,13 +2,14 @@
     import QuickLinks from '../components/QuickLinks.svelte'
     import Crypto from '../components/Crypto.svelte';
     import WalletAuth from '../components/WalletAuth.svelte';
+    import { format } from 'date-fns';
 
     const time = new Date();
 </script>
 
 <div class='w-screen h-screen bg-blue-200'>
     <p class='py-4 text-4xl text-center'>Welcome</p>
-    <p class='py-8 text-2xl text-center'>{time.getHours()}:{time.getMinutes()}</p>
+    <p class='py-8 text-2xl text-center'>{format(time, 'h:m b')}</p>
     <div class='grid grid-cols-3'>
         <div class='h-12 border-4 rounded-lg m-4'>
             <p class='text-center font-bold'>Weather</p>
